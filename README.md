@@ -14,7 +14,7 @@ It grabs images exactly the same way Microsoft uses to put it up on its page - u
 
 Here we can get data in any of the formats but substituting the value of format=[value] in the link.
 
-idx denotes the day before the current day. idx=0 means current day, idx=1 means yesterday and so on. n is an integer denoting the number of days before the day denoted by idx. It grabs data about all the n number of images. mkt denotes the area. The list of areas can be found from https://msdn.microsoft.com/en-us/library/dd251064.aspx). The script checks all the areas and if any new image is found it adds it to the directory and changes the current wallpaper to that.
+idx denotes the day before the current day. idx=0 means current day, idx=1 means yesterday and so on. n is an integer denoting the number of days before the day denoted by idx. It grabs data about all the n number of images. mkt denotes the area. The list of areas can be found from https://msdn.microsoft.com/en-us/library/dd251064.aspx).The default mkt is 'en-US', but you can change it as required.
 
 ### Installer
 Fully automated Desktop-Wallpaper-Changer installation and configuration!Edit the image_path in main() in DesktopWallpaperChanger.py to your desired directory. No need to add the script to your Startup list or copy paste it or etc.. The Installer does everything for you!
