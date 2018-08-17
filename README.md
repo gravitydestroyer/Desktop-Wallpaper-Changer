@@ -19,7 +19,7 @@ idx denotes the day before the current day. idx=0 means current day, idx=1 means
 ### Installer
 Fully automated Desktop-Wallpaper-Changer installation and configuration!Edit the image_path in main() in DesktopWallpaperChanger.py to your desired directory. No need to add the script to your Startup list or copy paste it or etc.. The Installer does everything for you!
 
-You just need to run the setup.bat file once after the downloading the whole package.
+You just need to run the **_setup.bat_** file once after the downloading the whole package.
 
 The process will continue even after restarting the system.
 
